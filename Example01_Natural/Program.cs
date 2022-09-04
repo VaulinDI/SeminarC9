@@ -3,7 +3,7 @@ void Number(int n)
 { 
     if (1 <= n) 
     { 
-    Console.Write("{0}", n); 
+    Console.Write(n + "  "); 
     Number(n-1); 
     } 
 }
